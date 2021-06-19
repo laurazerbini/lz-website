@@ -1,11 +1,7 @@
-/*colors*/
-/*$black - 000000*/
-/*$light-black - 363732*/
-/*$champagne - F8E4DD*/
-
 body {
-  font-family: Helvetica, Sans-Serif;
-  background-color: #F8E4DD;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ font-weight: 300;
+ color: ##1E0B0F;
 }
 
 h1 {
@@ -18,6 +14,11 @@ h2 {
 
 h3 {
   font-size: 9pt;
+  font-weight: lighter;
+}
+
+h5 {
+  font-weight: 300;
 }
 
 p {
@@ -25,17 +26,59 @@ p {
 }
 
 .header {
-  padding: 300px;
+  padding: 100px;
+  padding-top: 300px;
+  padding-bottom: 300px;
   text-align: left;
-  background: #191919;
-  color: #F8E4DD;
+  background: black;
+  color: white;
   font-size: 30px;
 }
 
-navbar {
-  background: #F8E4DD;
-  color: #F8E4DD;
+/*navbar*/
+
+.navbar {
+  background: white;
+  align-content: right;
 }
 
+.nav-item {
+}
+
+/*card*/
+
+.card-product {
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
 
 
