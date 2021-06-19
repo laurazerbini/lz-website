@@ -1,0 +1,41 @@
+/*colors*/
+/*$black - 000000*/
+/*$light-black - 363732*/
+/*$champagne - F8E4DD*/
+
+body {
+  font-family: Helvetica, Sans-Serif;
+  background-color: #F8E4DD;
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 9pt;
+}
+
+h3 {
+  font-size: 9pt;
+}
+
+p {
+  font-size: 9pt;
+}
+
+.header {
+  padding: 300px;
+  text-align: left;
+  background: #191919;
+  color: #F8E4DD;
+  font-size: 30px;
+}
+
+navbar {
+  background: #F8E4DD;
+  color: #F8E4DD;
+}
+
+
+
