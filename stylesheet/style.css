@@ -25,15 +25,37 @@ p {
   font-size: 9pt;
 }
 
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
 .header {
   padding: 100px;
   padding-top: 300px;
   padding-bottom: 300px;
+  margin-bottom: 15px;
   text-align: left;
   background: black;
   color: white;
   font-size: 30px;
 }
+
+.sub-header {
+  padding: 100px;
+  text-align: left;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+/*.gen-link {
+  text-decoration: none;
+}*/
 
 /*navbar*/
 
@@ -43,6 +65,17 @@ p {
 }
 
 .nav-item {
+}
+
+/*footer*/
+
+.footer {
+  background:  black;
+  color: white;
+  height: 50px;
+  width:  100%;
+  line-height: 50px;
+  margin-top: auto;
 }
 
 /*card*/
@@ -58,8 +91,9 @@ p {
 }
 
 .card-product img {
-  height: 100%;
-  width: 120px;
+  height: 50%;
+  width: 56px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -79,6 +113,19 @@ p {
 
 .card-product .card-product-infos {
   padding: 16px;
+}
+
+/*button*/
+
+.gen-link {
+ color: black;
+ text-decoration: none;
+
+}
+
+.gen-link:hover {
+ color: red;
+ text-decoration: none;
 }
 
 

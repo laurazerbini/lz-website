@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LAURA ZERBINI | front end developer</title>
+  <title>LAURA ZERBINI</title>
   <link href="stylesheet/style.css" rel="stylesheet" style="text/css" >
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-
-
 </head>
+
 <body>
 
+  <!--navbar starts from here-->
+  <nav class="navbar nav-navbar fixed-top navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5 mb-5">
+    <div class="navbar-nav m-auto py-0 link-wrap">
+      <a href="#home" class="btn">home</a>
+      <a href="#about" class="nav-item nav-link">about</a>
+      <a href="#projects" class="nav-item nav-link">projects</a>
+      <a href="blog.html" class="nav-item nav-link">blog</a>
+      <a href="#contact" class="nav-item nav-link">contact</a>
+      <!-- <a href="#more" id="more" class="nav-item nav-link">more</a> -->
+    </div>
+  </nav>
+
+  <!--header // banner starts from here-->
   <div class="header">
     <div class="container">
       <h1>L A U R A ZERBINI</h1>
@@ -18,67 +30,72 @@
     </div>
   </div>
 
-  <nav class="style-navbar navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5 mb-5">
-    <div class="navbar-nav m-auto py-0 link-wrap">
-      <a href="#home" class="nav-item nav-link">home</a>
-      <a href="#about" id="about" class="nav-item nav-link">about</a>
-      <a href="#projects" id="projects" class="nav-item nav-link">projects</a>
-      <a href="#blog" id="blog"  class="nav-item nav-link">blog</a>
-      <a href="#contact" id="contact" class="nav-item nav-link">contact</a>
-    </div>
-  </nav>
 
-
+  <!--content starts from here-->
   <div class="container">
     <div id ="home">
     </div>
 
+    <!--about starts from here-->
+    <br>
     <div id ="about">
-    <h2> ABOUT </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices sit amet sapien sed gravida. In sed enim pretium, molestie eros vitae, aliquet enim. Praesent dictum ligula eget risus finibus, eu feugiat dui ullamcorper. Fusce venenatis luctus elit, vitae rutrum ante congue eu. Integer feugiat sed velit nec ultricies. Quisque suscipit feugiat tortor non pretium. Proin posuere dolor eget diam bibendum tempor. Cras placerat nunc in nisi tempor scelerisque. Ut laoreet iaculis viverra. Integer sit amet ultrices augue. Nam ex lorem, dignissim ut congue vestibulum, faucibus non enim. Donec in mi tincidunt, efficitur dolor at, feugiat sem. Donec faucibus, urna eget rutrum lobortis, tortor mi tincidunt dui, nec vulputate enim nisl eget nisi. Suspendisse commodo condimentum libero, sit amet eleifend augue facilisis eget. Duis at iaculis lacus, eu dapibus velit. Integer a fermentum lorem.</p>
+      <h2> ABOUT </h2>
+      <p>
+        I am a full-stack developer with a fashion design background. I enjoy turning complex problems into simple and intuitive designs. to me, design and coding complement each other and should not be thought of separately.
+      </p>
+      <p>
+        back in 2017, I was looking for new challenges and I moved from my home country Brazil, to Germany. since 2018 I've been working for a fintech start-up in Berlin, which inspired me to change careers to web development.
+      </p>
+      <p>
+        I am focused on improving my coding skills and deepening my knowledge. additionally, I am particularly interested in working with JavaScript.
+      </p>
     </div>
 
+    <!--projects starts from here-->
+    <br>
     <div id ="projects">
-    <h2> PROJECTS </h2>
-      <div class="card-product">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-        <div class="card-product-infos">
-          <a href="https://airbnb-rent-and-ride.herokuapp.com/"><h2>Rend And Ride</h2></a>
-          <p>Bike rental platform created as an <strong>AirBnb clone</strong>.</p>
-          <p>Click <a href="https://github.com/laurazerbini/rent-and-ride"><strong>here</strong></a> to check the repository.</p>
+      <h2> PROJECTS </h2>
+        <div class="card-product">
+          <img src="images/bike.png" />
+          <div class="card-product-infos">
+            <a href="https://airbnb-rent-and-ride.herokuapp.com/" target="_blank" class="gen-link" ><h2>Rent And Ride</h2></a>
+            <p>bike rental platform created as an <strong>AirBnB clone</strong>.</p>
+            <p>click <a href="https://github.com/laurazerbini/rent-and-ride" target="_blank" class="gen-link"><strong>here</strong></a> to check the repository.</p>
+          </div>
         </div>
-      </div>
 
-      <div class="card-product">
-        <img src="../images/screw.png" />
-        <div class="card-product-infos">
-          <a href="https://screwapp.de/"><h2>ScrewApp [mobile]</h2></a>
-          <p>An app to glorify our<strong>screw ups</strong>.</p>
-          <p>Click <a href="https://github.com/laurazerbini/screwapp"><strong>here</strong></a> to check the repository.</p>
+        <div class="card-product">
+          <img src="images/screw.png" />
+          <div class="card-product-infos">
+            <a href="https://screwapp.de/" target="_blank" class="gen-link"><h2>ScrewApp [mobile]</h2></a>
+            <p>an app to glorify our <strong>screw ups</strong>.</p>
+            <p>click <a href="https://github.com/laurazerbini/screwapp" target="_blank" class="gen-link"><strong>here</strong></a> to check the repository.</p>
+          </div>
         </div>
-      </div>
-
-    <div id ="blog">
-    <h2> BLOG </h2>
     </div>
 
+    <!--contact starts from here-->
+    <br>
     <div id ="contact">
-    <h2> CONTACT </h2>
-    <ul style="list-style-type:none;">
-      <li>you can find me as /laurazerbini or /zerbinilaura pretty much <em>anywhere</em>.</li>
-      <li><a href="mailto:email-to@gmail.com">☞ drop me a line</a></li>
-      <li><a href="https://www.linkedin.com/in/laurazerbini/">☞ linkedin</a></li>
-      <li><a href="https://github.com/laurazerbini">☞ github</a></li>
-      <li><a href="http://bit.ly/CV-2SDY1ac">☞ check my online CV</a></li>
-    </ul>
+      <h2> CONTACT </h2>
+        <ul>
+          <li><em>you can find me as /laurazerbini or /zerbinilaura pretty much anywhere</em>.</li>
+          <!-- <li><a href="contact.html" class="nav-item nav-link">☞ drop me a line</a></li> -->
+          <li><a href="mailto:lauraczerbini@gmail.com" class="gen-link" >☞ drop me a line</a> at lauraczerbini@gmail.com</li>
+          <li><a href="https://www.linkedin.com/in/laurazerbini/" target="_blank" class="gen-link" >☞ linkedin</a></li>
+          <li><a href="https://github.com/laurazerbini" target="_blank" class="gen-link">☞ github</a></li>
+          <li><a href="http://bit.ly/lauraz_3qbTfNi" target="_blank" class="gen-link">☞ check my online CV</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <!--footer starts from here-->
-  <footer class="footer">
-  <p class="text-center">Copyright @2021 | Designed by <a href="#">Laura Zerbini</a></p>
-  </footer>
-
+  <div clear="clear">
+    <footer class="footer text-center">
+      <p class="text-center" >copyright @2021 | designed by Laura Zerbini</a></p>
+    </footer>
+  </div>
 
 </body>
 </html>
